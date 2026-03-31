@@ -1,0 +1,12 @@
+{
+  "name": "Request-api",
+  "version": "1.0.0",
+  "main": "payment.js",
+  "scripts": {
+    "start": "node Payment_request.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "uuid": "^9.0.0"
+  }
+}
