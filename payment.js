@@ -16,9 +16,6 @@ app.use(express.json({
 // Bind to all interfaces, not just localhost
 
 
-app.listen(PORT, () => {
-  console.log(`Server running on port ${PORT}`);
-});
 
 // Example bank database
 const validBanks = [
